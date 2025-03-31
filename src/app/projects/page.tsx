@@ -1,10 +1,10 @@
 import Link from "next/link";
-import { projects } from "../../project";
+import data from "../../project";
 
 const Projects = () => {
   return (
     <ul className="project-list">
-      {projects.map((project) => (
+      {data.map((project) => (
         <li key={project.id}>
           <div className="link">
             <span>&#8594;</span>
