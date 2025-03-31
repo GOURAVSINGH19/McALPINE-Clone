@@ -1,0 +1,261 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scrollbar-width: none;
+}
+body {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  --webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 7.5vw;
+  font-weight: 500;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  color: #1a1a1a;
+}
+
+span {
+  position: relative;
+  top: -0.075em;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.project-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.link {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  padding: 0 1em;
+}
+
+.home {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.projects-list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 50%);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.project-nav {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  padding: 1em;
+  z-index: 2;
+}
+
+.project-nav .link {
+  border-radius: 0.5em;
+  background-color: #c6c6c6;
+}
+
+.project-page-scroll-progress {
+  position: relative;
+  flex: 2;
+  height: 30px;
+  display: flex;
+  column-gap: 0.5rem;
+  align-items: center;
+  border-radius: 1em;
+  border: 1px solid #c6c6c6;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(20px);
+  padding: 0.5rem;
+}
+
+.project-scroll-prg-br {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #c6c6c6;
+  transform: scaleX(20%);
+  transform-origin: center left;
+  will-change: transform;
+  z-index: -1;
+  border-radius: 2.5em;
+}
+
+.project-hero {
+  display: grid;
+  grid-template-rows: 1fr 1fr auto;
+  width: 100%;
+  min-height: 30rem;
+  text-align: center;
+}
+.project-footer {
+  position: relative;
+  width: 100vw;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#project-decs {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+}
+
+.project-footer-copy {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.project-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5em;
+}
+
+.project-img {
+  width: 50%;
+  height: 75svh;
+}
+
+.next-project-progress {
+  position: absolute;
+  bottom: 25%;
+  width: 50%;
+  height: 4px;
+  background-color: #c6c6c6;
+}
+
+.next-page-prg-br {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  transform: scaleX(0%);
+  will-change: transform;
+}
+
+.middle-text-svg {
+  padding: clamp(18px, 0.0857142857 * calc(100 * (10.14px)), 120px);
+}
+
+.middle-text-svg svg {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1200 / 210;
+  overflow: visible;
+  height: 100%;
+  fill: #fff;
+}
+
+.showreel {
+  text-align: center;
+  clip-path: inset(-1px 2%);
+  display: flex;
+  align-items: center;
+  position: relative;
+  backface-visibility: visible;
+  height: 100svh;
+}
+
+.showreel::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+  z-index: 1000;
+}
+
+.o-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(18px, 0.0857142857 * calc(100 * (10.14px)), 120px);
+  padding-right: clamp(18px, 0.0857142857 * calc(100 * (10.14px)), 120px);
+}
+
+.c_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.c_img_center {
+  clip-path: inset(252px 430px);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.c_img_center video {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  object-fit: contain;
+}
+
+.list_items {
+  display: grid;
+  grid-template-columns: minmax(100px, 1fr) auto minmax(100px, 1fr);
+  grid-template-areas: "images title .";
+  -moz-column-gap: var(--grid-gutter);
+  column-gap: var(--grid-gutter);
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
