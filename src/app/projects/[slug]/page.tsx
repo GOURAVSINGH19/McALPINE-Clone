@@ -1,4 +1,4 @@
-import { projects } from "../../../project";
+import data from "../../../project";
 import ProjectClient from "./project-client";
 
 interface ProjectPageProps {
@@ -10,18 +10,18 @@ interface ProjectPageProps {
 export default function ProjectPage({ params }: ProjectPageProps) {
   const { slug } = params;
   
-  const project = projects.find((p) => p.slug === slug);
+  const project = data.find((p) => p.slug === slug);
 
   if (!project) {
     return <div>Project not found</div>;
   }
 
-  const currentIndex = projects.findIndex((p) => p.slug === slug);
-  const nextIndex = (currentIndex + 1 + projects.length) % projects.length;
-  const prevIndex = (currentIndex - 1 + projects.length) % projects.length;
+  const currentIndex = data.findIndex((p) => p.slug === slug);
+  const nextIndex = (currentIndex + 1 + data.length) % data.length;
+  const prevIndex = (currentIndex - 1 + data.length) % data.length;
 
-  const nextProject = projects[nextIndex];
-  const prevProject = projects[prevIndex];
+  const nextProject = data[nextIndex];
+  const prevProject = data[prevIndex];
 
   return (
     <ProjectClient

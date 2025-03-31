@@ -1,4 +1,4 @@
-import data from "../../project"
+import data from "../../project.js"
 const Section3 = () => {
     return (
         <section className="c_projects_section w-full h-screen o-container">
