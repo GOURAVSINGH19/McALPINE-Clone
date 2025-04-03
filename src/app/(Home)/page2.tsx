@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from "react"
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -56,7 +57,7 @@ const Section2 = () => {
                 <div className="absolute top-0 left-0 w-full h-full">
                     <div className="hero-img w-full h-full absolute top-0 left-0 transform scale-[.68] ">
                         <div className="w-full h-full relative">
-                            <img
+                            <Image
                                 src="/mcapline.webp"
                                 alt="center-img"
                                 className="object-cover bg-no-repeat  bg-center w-full h-full"

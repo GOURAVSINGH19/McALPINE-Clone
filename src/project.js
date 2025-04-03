@@ -5,9 +5,9 @@ const data =[
         "title": "Wellness",
         "description": "DigitalOcean is a cloud computing platform that offers a wide range of virtual servers, storage, databases, and more.",
         "images": [
-            "https://images.unsplash.com/photo-1561931789-d5b4f3e347c9",
-            "https://images.unsplash.com/photo-1593642532973-d31b6557fa68",
-            "https://images.unsplash.com/photo-1593642532991-dc28f4d35c8d"
+            "https://images.unsplash.com/photo-1742268351241-b1b2ccae70c5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1740517275088-7357149de625?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyNHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1742945845688-7c11c2f6d33d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D"
         ],
         "number": "I"
     },
@@ -17,9 +17,9 @@ const data =[
         "title": "Portal",
         "description": "DigitalOcean is a cloud computing platform that offers a wide range of virtual servers, storage, databases, and more.",
         "images": [
-            "https://images.unsplash.com/photo-1563884505-3b8a58d3accc",
-            "https://images.unsplash.com/photo-1563884512-3b8a58d3bb01",
-            "https://images.unsplash.com/photo-1563884519-3b8a58d3bb01"
+            "https://images.unsplash.com/photo-1742268351241-b1b2ccae70c5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1740517275088-7357149de625?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyNHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1742945845688-7c11c2f6d33d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D"
         ],
         "number": "II"
     },
@@ -29,9 +29,9 @@ const data =[
         "title": "Idyll",
         "description": "DigitalOcean is a cloud computing platform that offers a wide range of virtual servers, storage, databases, and more.",
         "images": [
-            "https://images.unsplash.com/photo-1600080323091-16b070d016ba",
-            "https://images.unsplash.com/photo-1593642532899-9bb97bbd6ee1",
-            "https://images.unsplash.com/photo-1583496503348-3be370db85b1"
+            "https://images.unsplash.com/photo-1742268351241-b1b2ccae70c5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1740517275088-7357149de625?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyNHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1742945845688-7c11c2f6d33d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D"
         ],
         "number": "III"
     },
@@ -41,9 +41,9 @@ const data =[
         "title": "Goodness",
         "description": "DigitalOcean is a cloud computing platform that offers a wide range of virtual servers, storage, databases, and more.",
         "images": [
-            "https://images.unsplash.com/photo-1601583511317-0bde0a1d74f3",
-            "https://images.unsplash.com/photo-1601585115486-22d9e8a9e697",
-            "https://images.unsplash.com/photo-1601585097202-02f11eaf497b"
+            "https://images.unsplash.com/photo-1742268351241-b1b2ccae70c5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1740517275088-7357149de625?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyNHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1742945845688-7c11c2f6d33d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D"
         ],
         "number": "IV"
     },
@@ -53,9 +53,9 @@ const data =[
         "title": "Radiance",
         "description": "DigitalOcean is a cloud computing platform that offers a wide range of virtual servers, storage, databases, and more.",
         "images": [
-            "https://images.unsplash.com/photo-1563201228-041cfeb745ed",
-            "https://images.unsplash.com/photo-1601307945611-62f9cb90b7a1",
-            "https://images.unsplash.com/photo-1601307946807-57eafdb11ee9"
+            "https://images.unsplash.com/photo-1742268351241-b1b2ccae70c5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1740517275088-7357149de625?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyNHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1742945845688-7c11c2f6d33d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D"
         ],
         "number": "V"
     },
@@ -65,9 +65,9 @@ const data =[
         "title": "Joy",
         "description": "DigitalOcean is a cloud computing platform that offers a wide range of virtual servers, storage, databases, and more.",
         "images": [
-            "https://images.unsplash.com/photo-1601451271391-d385b5f7e57d",
-            "https://images.unsplash.com/photo-1598531743174-c3b4e2bfa1fc",
-            "https://images.unsplash.com/photo-1598531743152-dbf7ea549a4b"
+            "https://images.unsplash.com/photo-1742268351241-b1b2ccae70c5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1740517275088-7357149de625?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyNHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1742945845688-7c11c2f6d33d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D"
         ],
         "number": "VI"
     },
@@ -77,9 +77,9 @@ const data =[
         "title": "Boundless",
         "description": "DigitalOcean is a cloud computing platform that offers a wide range of virtual servers, storage, databases, and more.",
         "images": [
-            "https://images.unsplash.com/photo-1560850102-2fc7282b2b61",
-            "https://images.unsplash.com/photo-1560850103-7cc621d1c9f2",
-            "https://images.unsplash.com/photo-1560850104-c9c2e8d3c7ad"
+            "https://images.unsplash.com/photo-1742268351241-b1b2ccae70c5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1740517275088-7357149de625?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyNHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1742945845688-7c11c2f6d33d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D"
         ],
         "number": "VII"
     },
@@ -89,9 +89,9 @@ const data =[
         "title": "Manse",
         "description": "DigitalOcean is a cloud computing platform that offers a wide range of virtual servers, storage, databases, and more.",
         "images": [
-            "https://images.unsplash.com/photo-1582995495364-28f8e404c9a4",
-            "https://images.unsplash.com/photo-1582995495424-21c663362263",
-            "https://images.unsplash.com/photo-1582995495311-d0d5b33709c4"
+            "https://images.unsplash.com/photo-1742268351241-b1b2ccae70c5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1740517275088-7357149de625?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyNHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1742945845688-7c11c2f6d33d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D"
         ],
         "number": "VIII"
     }

@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Link from "next/link";
+import Image from "next/image";
 
 interface Project {
   slug: string;
@@ -30,26 +31,43 @@ const ProjectClient: React.FC<ProjectClientProps> = ({ nextProject, prevProject,
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
+    const tl = gsap.timeline();
 
     gsap.set(projectNavRef.current, {
       opacity: 0,
       y: -100,
     });
 
-    gsap.to(projectNavRef.current, {
+    tl.to(projectNavRef.current, {
       y: 0,
       opacity: 1,
       duration: 1,
       delay: 0.25,
       ease: "power3.out",
-    });
-
-    gsap.to(projectDesc.current, {
+    }).to(projectDesc.current, {
       opacity: 1,
       duration: 1,
       delay: 0.5,
       ease: "power3.out",
-    });
+    })
+    gsap.fromTo(".project-hero-title", {
+      opacity: 0,
+      y: 10,
+      duration: 1,
+      ease: "power4.inOut"
+    }, {
+      opacity: 1,
+      duration: 1.5,
+      ease: "power4.inOut",
+      y: 0,
+    })
+    gsap.fromTo(".project-hero-number", {
+      opacity: 0,
+    }, {
+      opacity: 1,
+      duration: 1,
+      ease: "power2.inOut"
+    })
 
     const navscroll = ScrollTrigger.create({
       trigger: document.body,
@@ -148,18 +166,15 @@ const ProjectClient: React.FC<ProjectClientProps> = ({ nextProject, prevProject,
       </div>
 
       <div className="project-hero">
-        <p className="grid-row-1/2 flex items-end justify-center mb-10">{project.number}</p>
-        <h1>{project.title}</h1>
-        {/* <p id="project-decs" ref={projectDesc}>
-            {project.description}
-          </p> */}
+        <p className="grid-row-1/2 flex items-end justify-center mb-10 project-hero-number">{project.number}</p>
+        <h1 className="project-hero-title">{project.title}</h1>
       </div>
 
       <div className="project-images">
         {project.images &&
           project.images.map((image, i) => (
             <div className="project-img" key={i}>
-              <img src={image} alt="imgs" />
+              <Image src={image} alt="imgs" />
             </div>
           ))}
       </div>

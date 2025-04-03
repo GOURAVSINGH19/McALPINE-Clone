@@ -1,10 +1,28 @@
-import React from "react";
-
+"use client"
+import React, { useEffect, useRef, useState } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 interface Style {
   style?: number;
 }
 
 const McALPINE: React.FC<Style> = () => {
+  useEffect(() => {
+    const tl = gsap.timeline();
+
+    tl.to(".c-logo_path", {
+      opacity: 1,
+      y:0,
+      delay:.5,
+      transform: " translate3d(0,0,0)",
+      duration: 1.5,
+      stagger: .01,
+      ease: "power4.inOut",
+      force3D:true
+    }
+    )
+  }, [])
   return (
     <div className="w-[100%]">
       <svg
@@ -14,7 +32,7 @@ const McALPINE: React.FC<Style> = () => {
         viewBox="0 0 1200 210"
       >
         <path
-          style={{ "--index": 5 } as React.CSSProperties} // React doesn't directly support `style` as a string for CSS variables.
+          style={{ "--index": 5 } as React.CSSProperties}
           className="c-logo_path"
           d="M342.635 122.071L373.921 34.5877L405.939 122.071H342.635ZM444.283 157.006L384.102 0H381.928L332.329 138.075C326.583 154.02 321.898 166.679 317.707 176.515C305.813 202.9 298.901 205.334 290.987 206.155L288.233 206.417V207.218H312.021L341.067 126.506L407.31 126.592L418.999 157.931C430.406 189.291 435.848 204.298 436.791 207.192H464.829C463.194 203.878 457.831 192.204 444.309 156.973"
         ></path>
