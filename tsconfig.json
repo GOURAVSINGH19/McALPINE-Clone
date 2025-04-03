@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/(Home)/mcalpine.tsx", "src/app/(Home)/page.tsx", "src/app/projects/[slug]/project-client.tsx", "src/app/projects/page.tsx", "src/app/projects/[slug]/page.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/mcalpine.tsx", "src/app/components/page.tsx", "src/app/projects/[slug]/project-client.tsx", "src/app/projects/page.tsx", "src/app/projects/[slug]/page.tsx"],
   "exclude": ["node_modules"]
 }

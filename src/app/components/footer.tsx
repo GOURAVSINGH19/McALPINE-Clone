@@ -1,4 +1,4 @@
-import McALPINE from "./mcalpine"
+import McALPINE from "../components/mcalpine"
 
 const Footer = () => {
   return (

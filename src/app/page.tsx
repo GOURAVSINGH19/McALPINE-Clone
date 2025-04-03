@@ -1,9 +1,9 @@
-import Herosection from "@/app/(Home)/page"
-import Section2 from "./(Home)/page2"
+import Herosection from "@/app/components/page"
+import Section2 from "./components/page2"
 import ReactLenis from "lenis/react"
-import Section3 from "./(Home)/page3"
-import Footer from "./(Home)/footer"
-import Preloader from "./(Home)/preloader"
+import Section3 from "./components/page3"
+import Footer from "./components/footer"
+import Preloader from "./components/preloader"
 const HomePage = () => {
   return (
     <ReactLenis root options={{ lerp: .05 }}>
