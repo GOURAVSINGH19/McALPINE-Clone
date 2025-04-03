@@ -7,7 +7,7 @@ const Preloader = () => {
 
     useEffect(() => {
         setTimeout(() => {
-            gsap.to(".Preloader", {
+            gsap.to(".preloader", {
                 opacity: 0,
                 duration: 1,
                 ease: "power4.inOut",
