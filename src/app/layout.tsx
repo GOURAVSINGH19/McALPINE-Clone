@@ -7,6 +7,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "McALPINE",
   description: "A complete e-commerce application with Next.js ",
+  icons: [{
+    url: "/favicon.svg", 
+    href: "/favicon.svg"
+  }]
 };
 
 

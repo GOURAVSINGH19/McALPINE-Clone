@@ -1,9 +1,6 @@
 import Image from "next/image.js";
 import data from "../../project.js"
 
-// interface ImageProps {
-//     imgIndex: number;
-// }
 const Section3: React.FC = () => {
     return (
         <section className="c_projects_section o-container">
@@ -14,7 +11,7 @@ const Section3: React.FC = () => {
                             {item.images.map((img, imgIndex) => (
                                 <div className="c-imgs " key={imgIndex}>
                                     <div className="inner-imgs-class">
-                                        <Image style={{ "--imgindex": imgIndex } as React.CSSProperties}  src={img} alt={`Image ${imgIndex}`} className="inline-block w-full h-full" />
+                                        <Image style={{ "--imgindex": imgIndex } as React.CSSProperties}  src={img} alt={`Image ${imgIndex}`} className="inline-block w-full h-full" width={100} height={100} />
                                     </div>
                                 </div>
                             ))}

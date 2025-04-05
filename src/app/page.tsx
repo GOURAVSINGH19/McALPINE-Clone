@@ -4,10 +4,12 @@ import ReactLenis from "lenis/react"
 import Section3 from "./components/page3"
 import Footer from "./components/footer"
 import Preloader from "./components/preloader"
+import Navbar from "./components/navbar"
 const HomePage = () => {
   return (
     <ReactLenis root options={{ lerp: .05 }}>
       <Preloader />
+      <Navbar/>
       <main>
         <div className="w-full relative">
           <Herosection />

@@ -11,6 +11,8 @@ const Herosection = () => {
               src="/home-hero.webp"
               alt="center-img"
               className="object-cover bg-no-repeat w-full h-full"
+              width={100}
+              height={100}
             />
           </div>
           <video

@@ -60,6 +60,8 @@ const Section2 = () => {
                             <Image
                                 src="/mcapline.webp"
                                 alt="center-img"
+                                width={100}
+                                height={100}
                                 className="object-cover bg-no-repeat  bg-center w-full h-full"
                             />
                         </div>

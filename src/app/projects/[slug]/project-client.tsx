@@ -42,12 +42,10 @@ const ProjectClient: React.FC<ProjectClientProps> = ({ nextProject, prevProject,
       y: 0,
       opacity: 1,
       duration: 1,
-      delay: 0.25,
       ease: "power3.out",
     }).to(projectDesc.current, {
       opacity: 1,
       duration: 1,
-      delay: 0.5,
       ease: "power3.out",
     })
     gsap.fromTo(".project-hero-title", {
@@ -140,7 +138,6 @@ const ProjectClient: React.FC<ProjectClientProps> = ({ nextProject, prevProject,
         }
       },
     });
-
     return () => {
       ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
     };
@@ -174,7 +171,7 @@ const ProjectClient: React.FC<ProjectClientProps> = ({ nextProject, prevProject,
         {project.images &&
           project.images.map((image, i) => (
             <div className="project-img" key={i}>
-              <Image src={image} alt="imgs" />
+              <Image src={image} alt="imgs" width={100} height={100} />
             </div>
           ))}
       </div>

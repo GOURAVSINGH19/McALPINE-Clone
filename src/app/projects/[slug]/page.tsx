@@ -1,4 +1,6 @@
 import data from "../../../project";
+import Navbar from "../../components/navbar";
+import Preloader from "../../components/preloader";
 import ProjectClient from "./project-client";
 
 interface ProjectPageProps {
@@ -9,7 +11,7 @@ interface ProjectPageProps {
 
 export default function ProjectPage({ params }: ProjectPageProps) {
   const { slug } = params;
-  
+
   const project = data.find((p) => p.slug === slug);
 
   if (!project) {
@@ -24,10 +26,13 @@ export default function ProjectPage({ params }: ProjectPageProps) {
   const prevProject = data[prevIndex];
 
   return (
-    <ProjectClient
-      project={project}
-      nextProject={nextProject}
-      prevProject={prevProject}
-    />
+    <>
+      <Navbar />
+      <ProjectClient
+        project={project}
+        nextProject={nextProject}
+        prevProject={prevProject}
+      />
+    </>
   );
 }
