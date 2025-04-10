@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="c_footer o-container ">
       <div className="w-full c_footer_top_div">
         <nav className="c_footer_nav">
-          <ul>
+          <ul className="h_ul_section">
             <li className="c_li_items"><a href="/" className="c_a_items">Projects</a></li>
             <li className="c_li_items"><a href="/" className="c_a_items">Philoophy</a></li>
             <li className="c_li_items"><a href="/" className="c_a_items">Team</a></li>
